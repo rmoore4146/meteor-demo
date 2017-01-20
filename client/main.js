@@ -9,7 +9,7 @@ Comments = new Mongo.Collection('comments');
 
 Meteor.methods({
   callMe: (name) => {
-    console.log(`name: ${name}`);
+    console.log(`simulation: ${name}`);
   }
 });
 

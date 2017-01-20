@@ -5,10 +5,14 @@ Mostly server-side stuff abt Meteor
 #### Topics
 
 1. Build/Package
+    * NPM modules that can run on both client/server
+    * [Atmosphere](atmospherejs.com)
+    * Cheat sheet:
 ```
 meteor create app           //init new app in app dir
 meteor npm install          //install npm modules
 meteor list                 //list npm modules
+meteor serach <packageName> //search for module
 meteor remove <packageName> //remove npm module
 meteor add <packageName>    //add npm module
 meteor                      //run
@@ -44,7 +48,8 @@ meteor                      //run
     * ```Meteor.call(...)``` syntax let's you run server side functions from the client js
     * Can also call client side functions (or both)
 6. Advanced
-    * Latency compensation
+    * Latency compensation/Client simulation
+    * Debugging - node-inspector or easy-peasy Webstorm run config
 7. Pros/Cons
     * DB bound reactivity
     * Coupled to Mongo

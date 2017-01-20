@@ -55,6 +55,7 @@ Meteor.publish('allComments', function () {
 
 Meteor.methods({
   callMe: (name) => {
+    console.log(name);
     return `hello, ${name}`;
   }
 });
