@@ -6,7 +6,7 @@ Mostly server-side stuff abt Meteor
 
 1. Build/Package
     * NPM modules that can run on both client/server
-    * [Atmosphere](atmospherejs.com)
+    * [Atmosphere](http://atmospherejs.com)
     * Cheat sheet:
 ```
 meteor create app           //init new app in app dir
