@@ -1,6 +1,6 @@
 # meteor-demo
 
-Mostly server-side stuff abt Meteor
+Mostly server-side stuff abt Meteor. [OMG a diagram](https://goo.gl/photos/fPq8ZML53wy82nJa7).
 
 #### Topics
 
